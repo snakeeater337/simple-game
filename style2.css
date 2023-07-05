@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:fantasy;
+}
+button{ 
+  padding: 2px;
+}
+.background{
+  background-color:#00d4ff;
+  box-shadow:0 6px 11px ;
+  border-radius: 15px;
+}
+.imgs{
+  margin: 0;
+  padding: 5px;
+  align-items: left;
+  width: 60px;
+  height: 40px;
+}
+.head-container{
+width: 100%;
+height: 100px;
+background-color: rgb(197, 61, 250);
+border-radius: 15px;
+border: solid;
+box-shadow:0 6px 11px ;
+}
+.head-container #header{
+text-align: center;
+padding-top: 20px;
+font-size: 50px;
+color:rgb(15, 15, 15);
+}
+.monster-health{
+  margin-top: 30px;
+  margin-left: 40%;
+  width: 200px;
+  background-color: rgb(197, 61, 250);
+  border-radius: 15px;
+  border: 1.5px solid ;
+
+  
+}
+.monster-health #monster-health{
+  text-align: center;
+  }
+.player-health{
+  margin-top: 30px;
+  margin-left: 40%;
+  width: 200px;
+  background-color: rgb(255, 251, 28);
+  border-radius: 15px;
+  border: 1.5px solid ;
+
+}  
+.player-health #player-health{
+  text-align: center;
+}
+.commands{
+  margin-top: 30px;
+  margin-left: 40%;
+  border-radius: 15px;
+  padding: 3px;
+  
+}
+.commands .attack {
+  background-color: aliceblue;
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: 1.5px solid ;
+}
+.commands .heal{
+  background-color: aliceblue;
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: 1.5px solid ;
+}
+.commands .special-attack{
+  background-color: aliceblue;
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: 1.5px solid ;
+}
+.commands .give-up{
+  background-color: aliceblue;
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: 1.5px solid ;
+}
+#battle-logs{
+  margin-top: 30px;
+  margin-left: 30%;
+  background-color: aliceblue;
+  width: 500px;
+  height: 100%;
+  border-radius: 15px;
+  border: 1.5px solid ;
+}
+#battle-logs p{
+  padding: 2px;
+  text-align: center;
+}
+#battle-logs .monster-logs{
+
+}
+#battle-logs .player-logs{
+  
+}
+.monster-health #monster-healthbar{
+height: 20px;
+background-color:green;
+border-radius: 15px;
+margin-bottom: 5px;
+border: solid 0.5px;
+}
+.player-health #player-healthbar{
+height: 20px;
+background-color:green;
+border-radius: 15px;
+margin-bottom: 5px;
+border: solid 0.5px;
+}

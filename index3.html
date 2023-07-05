@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css\style2.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js</title>
+  <script src="css\js\app.js"></script>
+</head>
+<body>
+<div class="background">
+  <div class="head-container">
+    <p id="header">Kill the Monster</p>
+  </div>
+  <div class="monster-health">
+    <p id="monster-health" >Monster Health</p>
+    <div id="monster-healthbar"></div>
+    <script>document.getElementById("monster-healthbar").style.width="200px";</script>
+  </div>
+  <div class="player-health">
+    <p for="player-health" id="player-health">Your Health</p>
+    <div id="player-healthbar"></div>
+    <script>document.getElementById("player-healthbar").style.width="200px";</script>
+  </div>
+  <div class="commands">
+    <div class="attack">
+      <img class="imgs" src="Removal-554.png" alt="ATTACK">
+      <button onclick="attack()" id="attackk">ATTACK</button>
+    </div>
+    <div class="heal">
+      <img class="imgs" src="Removal-311.png" alt="HEAL">
+      <button onclick="heal()" id="heall">HEAL</button>
+    </div>
+    <div class="special-attack">
+      <img class="imgs" src="Removal-949.png" alt="special attack">
+      <button onclick="specialAttacks()" id="speciall">SPECIAL ATTACK</button>
+    </div>
+    <div class="give-up">
+      <img class="imgs" src="Removal-557.png" alt="give up">
+      <button onclick="giveUp()" id="giveupp"> GIVE UP</button>
+    </div>
+  </div>
+  <div id="battle-logs">
+    <p>Battle Log</p>
+  </div>
+</div>
+</body>
+</html>
